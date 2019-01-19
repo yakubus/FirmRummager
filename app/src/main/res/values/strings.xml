@@ -1,10 +1,13 @@
 <resources>
+    <!--Text-->
         <string name="app_name">FirmRummager</string>
         <string name="LabelNipRegon">Podaj NIP lub REGON firmy</string>
         <string name="label_inputId">Nip lub Regon</string>
 
-        <!-- Error Messages-->
-        <string name="wrongId">Niepoprawny identyfikator firmy.\nWprowadź poprawny NIP lub Regon</string>
+    <!-- Buttons-->
+        <string name="serch_button">znajdź informację</string>
+    <!-- Error Messages-->
+        <string name="wrongId">Niepoprawny identyfikator firmy. Wprowadź poprawny NIP lub Regon</string>
 
 
 

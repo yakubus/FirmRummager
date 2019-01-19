@@ -9,19 +9,22 @@
 
 
     <TableLayout
-        android:layout_width="368dp"
+        android:layout_width="361dp"
         android:layout_height="495dp"
-        android:padding="8dp">
+        android:layout_marginEnd="8dp"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="8dp">
+
             <TextView
                 android:id="@+id/tv_inputId"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/LabelNipRegon"/>
+                android:text="@string/LabelNipRegon" />
         </TableRow>
 
         <TableRow
@@ -31,7 +34,7 @@
 
             <EditText
                 android:id="@+id/et_inputId"
-                android:layout_width="wrap_content"
+                android:layout_width="317dp"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
                 android:ems="10"
@@ -40,6 +43,7 @@
                 tools:targetApi="o" />
 
         </TableRow>
+
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -47,12 +51,24 @@
 
             <TextView
                 android:id="@+id/tv_errorInpudId"
-                android:layout_width="277dp"
+                android:layout_width="314dp"
                 android:layout_height="wrap_content"
                 android:text="@string/wrongId"
                 android:textColor="@color/colorAccent"
                 android:textSize="8sp"
-                android:visibility="gone" />
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="331dp"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:text="@string/serch_button" />
         </TableRow>
 
     </TableLayout>
